@@ -46,13 +46,6 @@ const services = [
     seo: 'Schülerfahrten Meisenheim – sichere Beförderung zur Schule.'
   },
   {
-    id: 'kurierfahrten',
-    icon: Package,
-    title: 'Kurierfahrten',
-    description: 'Schnelle und zuverlässige Lieferungen in der Region. Für eilige Sendungen und wichtige Dokumente.',
-    seo: 'Kurierfahrten – schnelle und sichere Lieferungen.'
-  },
-  {
     id: 'nachtfahrten',
     icon: Moon,
     title: 'Nachtfahrten',

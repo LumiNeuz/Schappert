@@ -102,38 +102,6 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="#leistungen" className="footer-link text-gray-400 hover:text-white transition-colors">
-                  Kurierfahrten
+                  Nachtfahrten
                 </a>
               </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Bottom Bar */}
-        <div className="py-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-          <p>
-            © {currentYear} Manuel Schappert Personenbeförderung. Alle Rechte vorbehalten.
-          </p>
-          <div className="flex gap-6">
-            <Link 
-              to="/impressum" 
-              data-testid="footer-impressum-link"
-              className="hover:text-white transition-colors"
-            >
-              Impressum
-            </Link>
-            <Link 
-              to="/datenschutz" 
-              data-testid="footer-datenschutz-link"
-              className="hover:text-white transition-colors"
-            >
-              Datenschutz
-            </Link>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-};
-
-export default Footer;
