@@ -1,0 +1,112 @@
+{
+  "brand_identity": {
+    "name": "Manuel Schappert Personenbeförderung",
+    "core_values": ["Reliability", "Safety", "Empathy", "Local Connection"],
+    "target_audience": "Seniors, Patients, Families in Meisenheim",
+    "tone": "Friendly, Professional, Trustworthy, Clear"
+  },
+  "theme": {
+    "mode": "light",
+    "background": "bg-stone-50",
+    "surface": "bg-white"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Manrope, sans-serif",
+      "body": "Inter, sans-serif"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-4xl font-bold tracking-tight",
+      "h3": "text-xl md:text-2xl font-semibold",
+      "body": "text-base md:text-lg leading-relaxed",
+      "small": "text-sm font-medium"
+    }
+  },
+  "colors": {
+    "primary": "#0F4C81",
+    "primary_foreground": "#FFFFFF",
+    "secondary": "#F0F4F8",
+    "secondary_foreground": "#0F4C81",
+    "accent": "#D97706",
+    "accent_foreground": "#FFFFFF",
+    "background": "#FAFAF9",
+    "text_main": "#1C1917",
+    "text_muted": "#57534E",
+    "border": "#E7E5E4"
+  },
+  "visual_enhancers": {
+    "border_radius": "rounded-xl",
+    "shadows": "shadow-lg shadow-stone-200/50",
+    "glassmorphism": "bg-white/80 backdrop-blur-md border border-white/20",
+    "gradients": "bg-gradient-to-br from-blue-50 to-stone-50"
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": "space-y-16 md:space-y-24",
+    "grid_services": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+    "section_padding": "py-16 md:py-24"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#0F4C81] text-white hover:bg-[#0c3b66] rounded-full px-8 py-6 text-lg font-semibold shadow-md transition-all hover:scale-105",
+      "secondary": "bg-white text-[#0F4C81] border-2 border-[#0F4C81] hover:bg-blue-50 rounded-full px-8 py-6 text-lg font-semibold transition-all",
+      "cta_urgent": "bg-[#D97706] text-white hover:bg-[#b45309] rounded-full px-8 py-4 text-xl font-bold shadow-lg animate-pulse-slow"
+    },
+    "cards": {
+      "service": "bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all border border-stone-100 hover:border-blue-100 group",
+      "feature": "bg-blue-50/50 rounded-xl p-6 border border-blue-100"
+    },
+    "navigation": {
+      "wrapper": "fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-stone-100",
+      "link": "text-stone-600 hover:text-[#0F4C81] font-medium transition-colors"
+    }
+  },
+  "image_urls": {
+    "hero_bg": "https://images.unsplash.com/photo-1656680533838-789d5278454e?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "hero_main": "https://images.pexels.com/photos/6646979/pexels-photo-6646979.jpeg",
+    "about_driver": "https://images.pexels.com/photos/35161054/pexels-photo-35161054.jpeg",
+    "service_wheelchair": "https://images.unsplash.com/photo-1764006145420-df3006edf060?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "service_van": "https://images.pexels.com/photos/6753481/pexels-photo-6753481.jpeg",
+    "why_us_care": "https://images.pexels.com/photos/3101214/pexels-photo-3101214.jpeg"
+  },
+  "content_structure": {
+    "hero": {
+      "headline": "Sicher & Zuverlässig ans Ziel in Meisenheim",
+      "subheadline": "Ihr Partner für Krankenfahrten, Rollstuhltransporte und mehr. Wir bringen Sie sicher an Ihr Ziel – mit Herz und Verstand.",
+      "cta_primary": "Jetzt Fahrt buchen: 06753 2610",
+      "cta_secondary": "Unsere Leistungen"
+    },
+    "services": [
+      { "title": "Krankenfahrten", "icon": "Ambulance", "desc": "Fahrten zu Arztterminen, Kliniken und Reha." },
+      { "title": "Rollstuhlfahrten", "icon": "Accessibility", "desc": "Spezialfahrzeuge für sicheren Transport im Rollstuhl." },
+      { "title": "Dialysefahrten", "icon": "Activity", "desc": "Pünktlich und regelmäßig zur Dialyse und zurück." },
+      { "title": "Chemo- & Strahlenfahrten", "icon": "HeartHandshake", "desc": "Einfühlsame Begleitung während Ihrer Therapie." },
+      { "title": "Schülerfahrten", "icon": "GraduationCap", "desc": "Sicherer Schulweg für Ihr Kind." },
+      { "title": "Kurierfahrten", "icon": "Package", "desc": "Schnelle und zuverlässige Lieferungen." }
+    ],
+    "contact": {
+      "address": "Untergasse 49, 55590 Meisenheim",
+      "phone": "06753 2610",
+      "email": "schappertmanu@web.de"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use 'lucide-react' for icons.",
+    "Ensure all phone numbers are clickable links (tel:067532610).",
+    "Do NOT use a contact form, only display contact details prominently.",
+    "Use the 'Manrope' font for headings to give a modern but friendly feel.",
+    "Ensure high contrast for accessibility (Seniors).",
+    "Implement a 'Sticky' Call-to-Action bar on mobile with the phone number.",
+    "Use the provided image URLs strictly.",
+    "Create a separate 'Impressum' and 'Datenschutz' page or modal as per German law requirements.",
+    "The design must be 'Light' and 'Friendly' - avoid dark heavy themes.",
+    "Use 'sonner' for any notifications if needed (though likely not needed for a static site)."
+  ],
+  "universal_guidelines": [
+    "Do not use generic centered layouts.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Every interaction needs micro-animations.",
+    "Use 'data-testid' for all interactive elements."
+  ]
+}
