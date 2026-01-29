@@ -5,7 +5,6 @@ import {
   Activity, 
   HeartHandshake, 
   GraduationCap, 
-  Package,
   Moon,
   Phone
 } from 'lucide-react';
