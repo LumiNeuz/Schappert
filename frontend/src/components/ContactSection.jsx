@@ -31,14 +31,16 @@ export const ContactSection = () => {
               <a 
                 href="tel:067532610" 
                 data-testid="contact-phone-link"
-                className="contact-item bg-white/10 border-white/20 hover:bg-white/20 rounded-xl p-6 flex items-center gap-5 transition-all"
+                className="block bg-white/10 hover:bg-white/20 rounded-xl p-6 transition-all"
               >
-                <div className="w-14 h-14 bg-[#D97706] rounded-full flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-7 h-7 text-white" />
-                </div>
-                <div>
-                  <p className="text-sm text-blue-200 mb-1">Rufen Sie uns an</p>
-                  <p className="text-2xl font-bold text-white">06753 2610</p>
+                <div className="flex items-center gap-5">
+                  <div className="w-14 h-14 bg-[#D97706] rounded-full flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-blue-200 mb-1">Rufen Sie uns an</p>
+                    <p className="text-2xl font-bold text-white">06753 2610</p>
+                  </div>
                 </div>
               </a>
 
@@ -46,26 +48,30 @@ export const ContactSection = () => {
               <a 
                 href="mailto:schappertmanu@web.de" 
                 data-testid="contact-email-link"
-                className="contact-item bg-white/10 border-white/20 hover:bg-white/20 rounded-xl p-6 flex items-center gap-5 transition-all"
+                className="block bg-white/10 hover:bg-white/20 rounded-xl p-6 transition-all"
               >
-                <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-7 h-7 text-white" />
-                </div>
-                <div>
-                  <p className="text-sm text-blue-200 mb-1">E-Mail</p>
-                  <p className="text-lg font-semibold text-white">schappertmanu@web.de</p>
+                <div className="flex items-center gap-5">
+                  <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-blue-200 mb-1">E-Mail</p>
+                    <p className="text-lg font-semibold text-white break-all">schappertmanu@web.de</p>
+                  </div>
                 </div>
               </a>
 
               {/* Hours */}
-              <div className="contact-item bg-white/10 border-white/20 rounded-xl p-6 flex items-center gap-5">
-                <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-7 h-7 text-white" />
-                </div>
-                <div>
-                  <p className="text-sm text-blue-200 mb-1">Termine</p>
-                  <p className="text-lg font-semibold text-white">Nach Vereinbarung</p>
-                  <p className="text-blue-200 text-sm">Auch Nachtfahrten möglich</p>
+              <div className="bg-white/10 rounded-xl p-6">
+                <div className="flex items-center gap-5">
+                  <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-blue-200 mb-1">Termine</p>
+                    <p className="text-lg font-semibold text-white">Nach Vereinbarung</p>
+                    <p className="text-blue-200 text-sm">Auch Nachtfahrten möglich</p>
+                  </div>
                 </div>
               </div>
             </div>
