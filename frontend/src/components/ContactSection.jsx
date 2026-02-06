@@ -94,7 +94,7 @@ export const ContactSection = () => {
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <p className="font-bold text-lg">Manuel Schappert</p>
                   <p className="text-blue-100">Personenbeförderung</p>
-                  <p className="text-sm text-blue-200 mt-2">Untergasse 49, 55590 Meisenheim</p>
+                  <p className="text-sm text-blue-200 mt-2">Meisenheim und Umgebung</p>
                 </div>
               </div>
             </div>
