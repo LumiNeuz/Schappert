@@ -1,3 +1,9 @@
+/* Prevent horizontal overflow */
+.App {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 /* Hero Background Overlay */
 .hero-gradient {
   background: linear-gradient(135deg, rgba(15, 76, 129, 0.03) 0%, rgba(250, 250, 249, 0.95) 100%);
