@@ -115,7 +115,14 @@ export const ReviewsSection = () => {
                   </span>
                 </div>
                 <div>
-                  <p className="font-semibold text-[#1C1917]">{review.name}</p>
+                  <div className="flex items-center gap-2">
+                    <p className="font-semibold text-[#1C1917]">{review.name}</p>
+                    {review.isLocalGuide && (
+                      <span className="text-xs bg-blue-100 text-[#0F4C81] px-2 py-0.5 rounded-full font-medium">
+                        Local Guide
+                      </span>
+                    )}
+                  </div>
                   <p className="text-sm text-[#78716C]">{review.date}</p>
                 </div>
               </div>
