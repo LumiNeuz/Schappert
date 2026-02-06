@@ -33,7 +33,7 @@ export const HeroSection = () => {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-blue-50 text-[#0F4C81] px-4 py-2 rounded-full text-sm font-medium">
               <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-              Ihr Partner in Meisenheim
+              Ihr Partner in Meisenheim und Umgebung
             </div>
 
             {/* Headline */}
