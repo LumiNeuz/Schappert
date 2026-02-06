@@ -21,7 +21,7 @@ export const HeroSection = () => {
       className="relative min-h-screen flex items-center pt-20 hero-gradient overflow-hidden"
     >
       {/* Background decoration */}
-      <div className="absolute top-0 right-0 w-1/2 h-full opacity-5">
+      <div className="absolute top-0 right-0 w-1/2 h-full opacity-5 overflow-hidden">
         <div className="absolute top-20 right-20 w-96 h-96 rounded-full bg-[#0F4C81]"></div>
         <div className="absolute bottom-40 right-40 w-64 h-64 rounded-full bg-[#D97706]"></div>
       </div>
