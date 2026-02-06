@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { Phone, Mail, Clock } from 'lucide-react';
 
 export const ContactSection = () => {
   return (
@@ -56,18 +56,6 @@ export const ContactSection = () => {
                   <p className="text-lg font-semibold text-white">schappertmanu@web.de</p>
                 </div>
               </a>
-
-              {/* Address */}
-              <div className="contact-item bg-white/10 border-white/20 rounded-xl p-6 flex items-center gap-5">
-                <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-7 h-7 text-white" />
-                </div>
-                <div>
-                  <p className="text-sm text-blue-200 mb-1">Adresse</p>
-                  <p className="text-lg font-semibold text-white">Untergasse 49</p>
-                  <p className="text-white">55590 Meisenheim</p>
-                </div>
-              </div>
 
               {/* Hours */}
               <div className="contact-item bg-white/10 border-white/20 rounded-xl p-6 flex items-center gap-5">

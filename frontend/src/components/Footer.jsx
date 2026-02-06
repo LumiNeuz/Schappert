@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,10 +37,6 @@ export const Footer = () => {
                 <Mail className="w-4 h-4" />
                 schappertmanu@web.de
               </a>
-              <div className="flex items-center gap-3 text-gray-400">
-                <MapPin className="w-4 h-4" />
-                Untergasse 49, 55590 Meisenheim
-              </div>
             </div>
           </div>
 
