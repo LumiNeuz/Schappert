@@ -4,24 +4,25 @@ import { Star, Quote } from 'lucide-react';
 const reviews = [
   {
     id: 1,
-    name: 'Zufriedener Kunde',
+    name: 'Jutta Friedhofen',
     rating: 5,
-    text: 'Sehr zuverlässiger und freundlicher Service. Die Fahrten zur Dialyse sind immer pünktlich und der Fahrer ist sehr hilfsbereit.',
+    text: 'Hilfsbereit beim ein und aussteigen. Sehr pünktlich. Sehr empfehlenswert. Fahren gerne mit ihnen.',
     date: '2024'
   },
   {
     id: 2,
-    name: 'Stammkunde',
+    name: 'Elke B.',
     rating: 5,
-    text: 'Seit Jahren nutzen wir den Service für Arztfahrten. Immer pünktlich, immer freundlich. Absolut empfehlenswert!',
-    date: '2024'
+    text: 'Herr Schappert ist sehr freundlich hilfsbereit auch beim Ein- und Aussteigen und sehr pünktlich.',
+    date: '2023'
   },
   {
     id: 3,
-    name: 'Familie M.',
+    name: 'Monja Neitzke',
     rating: 5,
-    text: 'Unser Sohn wird sicher zur Schule gebracht. Wir vertrauen Herrn Schappert voll und ganz. Vielen Dank für den tollen Service!',
-    date: '2024'
+    text: 'Sehr nettes und freundliches Taxi- und Mietwagen Unternehmen. Kann es nur bestens empfehlen.',
+    date: '2023',
+    isLocalGuide: true
   }
 ];
 
