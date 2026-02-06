@@ -7,21 +7,21 @@ const reviews = [
     name: 'Jutta Friedhofen',
     rating: 5,
     text: 'Hilfsbereit beim ein und aussteigen. Sehr pünktlich. Sehr empfehlenswert. Fahren gerne mit ihnen.',
-    date: '2024'
+    date: '2025'
   },
   {
     id: 2,
     name: 'Elke B.',
     rating: 5,
     text: 'Herr Schappert ist sehr freundlich hilfsbereit auch beim Ein- und Aussteigen und sehr pünktlich.',
-    date: '2023'
+    date: '2024'
   },
   {
     id: 3,
     name: 'Monja Neitzke',
     rating: 5,
     text: 'Sehr nettes und freundliches Taxi- und Mietwagen Unternehmen. Kann es nur bestens empfehlen.',
-    date: '2023',
+    date: '2024',
     isLocalGuide: true
   }
 ];
