@@ -16,9 +16,11 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#0F4C81] rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">MS</span>
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_fahrdienst-schappert/artifacts/q61ufv7d_9_2.png" 
+                alt="Manuel Schappert Personenbeförderung Logo"
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <p className="font-bold text-lg leading-tight">Manuel Schappert</p>
                 <p className="text-sm text-gray-400">Personenbeförderung</p>
