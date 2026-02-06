@@ -108,7 +108,7 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="py-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
+        <div className="py-6 pb-24 lg:pb-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
           <p>
             © {currentYear} Manuel Schappert Personenbeförderung. Alle Rechte vorbehalten.
           </p>

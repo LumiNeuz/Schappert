@@ -17,6 +17,11 @@
   --border-color: #E7E5E4;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
@@ -24,6 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background);
   color: var(--text-main);
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
