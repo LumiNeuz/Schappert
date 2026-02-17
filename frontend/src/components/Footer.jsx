@@ -100,7 +100,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="#leistungen" className="footer-link text-gray-400 hover:text-white transition-colors">
-                  Nachtfahrten
+                  Kurierfahrten
                 </a>
               </li>
             </ul>

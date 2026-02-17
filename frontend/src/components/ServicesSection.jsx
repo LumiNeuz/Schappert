@@ -5,7 +5,7 @@ import {
   Activity, 
   HeartHandshake, 
   GraduationCap, 
-  Moon,
+  Package,
   Phone
 } from 'lucide-react';
 
@@ -46,11 +46,11 @@ const services = [
     seo: 'Schülerfahrten Meisenheim – sichere Beförderung zur Schule.'
   },
   {
-    id: 'nachtfahrten',
-    icon: Moon,
-    title: 'Nachtfahrten',
-    description: 'Auch außerhalb der regulären Zeiten sind wir für Sie da. Nachtfahrten auf Vorbestellung möglich.',
-    seo: 'Nachtfahrten auf Vorbestellung – auch nachts sicher unterwegs.'
+    id: 'kurierfahrten',
+    icon: Package,
+    title: 'Kurierfahrten',
+    description: 'Schnelle und zuverlässige Lieferungen in der Region. Für eilige Sendungen und wichtige Dokumente.',
+    seo: 'Kurierfahrten – schnelle und sichere Lieferungen.'
   }
 ];
 
