@@ -88,7 +88,7 @@ export const WhyUsSection = () => {
         {/* Stats */}
         <div className="grid grid-cols-3 gap-8 mt-20 pt-16 border-t border-stone-200">
           <div className="text-center">
-            <p className="text-4xl lg:text-5xl font-bold text-[#0F4C81]">10+</p>
+            <p className="text-4xl lg:text-5xl font-bold text-[#0F4C81]">40+</p>
             <p className="text-[#57534E] mt-2">Jahre Erfahrung</p>
           </div>
           <div className="text-center">
