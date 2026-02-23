@@ -14,6 +14,7 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import MobileStickyCTA from './components/MobileStickyCTA';
 import WhatsAppButton from './components/WhatsAppButton';
+import CookieConsent from './components/CookieConsent';
 
 // Pages
 import Impressum from './pages/Impressum';
