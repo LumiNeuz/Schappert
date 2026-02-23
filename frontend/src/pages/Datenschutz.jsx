@@ -57,10 +57,10 @@ export const Datenschutz = () => {
                 Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.
               </p>
               <div className="bg-blue-50 p-4 rounded-lg">
-                <p><strong>Manuel Schappert</strong></p>
-                <p>Untergasse 49, 55590 Meisenheim</p>
+                <p><strong>Mietwagen Manuel Schappert</strong></p>
+                <p>Lindenallee 41a, 55590 Meisenheim</p>
                 <p>Telefon: 06753 2610</p>
-                <p>E-Mail: schappertmanu@web.de</p>
+                <p>E-Mail: info@ms-fahrdienst.com</p>
               </div>
             </div>
           </section>
