@@ -1,0 +1,11 @@
+# robots.txt für Fahrdienst Schappert
+# https://ms-fahrdienst.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ms-fahrdienst.com/sitemap.xml
+
+# Crawl-delay für respektvolles Crawling
+Crawl-delay: 1
