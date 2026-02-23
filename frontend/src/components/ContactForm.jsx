@@ -60,7 +60,7 @@ export const ContactForm = () => {
           phone: formData.phone,
           email: formData.email,
           service: services.find(s => s.value === formData.service)?.label || formData.service,
-          message: formData.message || null,
+          message: formData.message,
         }),
       });
 
