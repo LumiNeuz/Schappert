@@ -198,15 +198,16 @@ export const ContactForm = () => {
                 </div>
               </div>
 
-              {/* Message (optional) */}
+              {/* Message (required) */}
               <div className="space-y-2">
                 <Label htmlFor="message" className="text-[#1C1917] font-medium">
-                  Nachricht (optional)
+                  Nachricht *
                 </Label>
                 <textarea
                   id="message"
                   name="message"
                   rows={4}
+                  required
                   value={formData.message}
                   onChange={handleChange}
                   placeholder="Ihre Nachricht an uns..."
