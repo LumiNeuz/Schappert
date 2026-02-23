@@ -48,7 +48,7 @@ class ContactFormRequest(BaseModel):
     phone: str
     email: EmailStr
     service: str
-    message: Optional[str] = None
+    message: str
 
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
