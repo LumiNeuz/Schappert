@@ -11,8 +11,8 @@ import {
   SelectValue,
 } from '../components/ui/select';
 
-// API URL - Vercel nutzt relative Pfade, daher leer lassen
-const API_URL = '';
+// API URL - Vercel Contact API
+const API_URL = 'https://contact-api-lilac-two.vercel.app';
 
 const services = [
   { value: 'krankenfahrten', label: 'Krankenfahrten' },
