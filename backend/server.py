@@ -1,14 +1,16 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter, HTTPException
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 import os
 import logging
+import asyncio
 from pathlib import Path
-from pydantic import BaseModel, Field, ConfigDict
-from typing import List
+from pydantic import BaseModel, Field, ConfigDict, EmailStr
+from typing import List, Optional
 import uuid
 from datetime import datetime, timezone
+import resend
 
 
 ROOT_DIR = Path(__file__).parent
@@ -18,6 +20,10 @@ load_dotenv(ROOT_DIR / '.env')
 mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
+
+# Resend configuration
+resend.api_key = os.environ.get('RESEND_API_KEY')
+CONTACT_EMAIL = os.environ.get('CONTACT_EMAIL', 'info@ms-fahrdienst.com')
 
 # Create the main app without a prefix
 app = FastAPI()
@@ -36,6 +42,13 @@ class StatusCheck(BaseModel):
 
 class StatusCheckCreate(BaseModel):
     client_name: str
+
+class ContactFormRequest(BaseModel):
+    name: str
+    phone: str
+    email: EmailStr
+    service: str
+    message: Optional[str] = None
 
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
