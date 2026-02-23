@@ -91,7 +91,7 @@ export const ContactSection = () => {
               {/* Simple map placeholder with location info */}
               <div className="flex-1 bg-blue-50 rounded-xl overflow-hidden relative">
                 <img 
-                  src="https://images.pexels.com/photos/6753481/pexels-photo-6753481.jpeg"
+                  src="/images/contact-transport.jpg"
                   alt="Komfortabler Transport in Meisenheim"
                   className="w-full h-full object-cover absolute inset-0"
                   data-testid="contact-image"

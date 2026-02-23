@@ -14,7 +14,7 @@ export const AboutSection = () => {
           <div className="relative order-2 lg:order-1">
             <div className="image-overlay rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/3101214/pexels-photo-3101214.jpeg"
+                src="/images/about-driver.jpg"
                 alt="Freundlicher Fahrer - Manuel Schappert Personenbeförderung"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
                 data-testid="about-image"

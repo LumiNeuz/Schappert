@@ -17,7 +17,7 @@ export const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
               <img 
-                src="https://customer-assets.emergentagent.com/job_fahrdienst-schappert/artifacts/zk2cuffq_MS_LOGO.png" 
+                src="/images/logo.png" 
                 alt="Manuel Schappert Personenbeförderung Logo"
                 className="w-12 h-12 object-contain"
               />

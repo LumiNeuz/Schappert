@@ -95,7 +95,7 @@ export const HeroSection = () => {
           <div className="relative animate-fade-in-up stagger-2">
             <div className="image-overlay rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.pexels.com/photos/6646979/pexels-photo-6646979.jpeg"
+                src="/images/hero-transport.jpg"
                 alt="Komfortabler Personentransport"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
                 data-testid="hero-image"

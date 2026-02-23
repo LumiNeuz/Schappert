@@ -11,7 +11,7 @@ export const WhatsAppButton = () => {
       aria-label="WhatsApp kontaktieren"
     >
       <img 
-        src="https://customer-assets.emergentagent.com/job_fahrdienst-schappert/artifacts/57dn8u5h_Digital_Glyph_White.png" 
+        src="/images/whatsapp-icon.png" 
         alt="WhatsApp"
         className="w-8 h-8"
       />
