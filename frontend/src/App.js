@@ -37,6 +37,7 @@ const HomePage = () => {
       <Footer />
       <WhatsAppButton />
       <MobileStickyCTA />
+      <CookieConsent />
     </>
   );
 };
