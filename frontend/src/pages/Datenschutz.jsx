@@ -178,7 +178,7 @@ export const Datenschutz = () => {
 
           <section>
             <h2 className="text-xl font-bold text-[#1C1917] mb-4">
-              6. Hosting
+              7. Hosting
             </h2>
             <p className="text-[#57534E] leading-relaxed">
               Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser 
