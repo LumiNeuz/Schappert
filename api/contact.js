@@ -67,7 +67,7 @@ module.exports = async (req, res) => {
 
     // Send email via Resend
     const { data, error } = await resend.emails.send({
-      from: 'Kontaktformular <onboarding@resend.dev>',
+      from: 'Fahrdienst Schappert <info@ms-fahrdienst.com>',
       to: [CONTACT_EMAIL],
       subject: `Neue Anfrage: ${service} - ${name}`,
       html: htmlContent,
