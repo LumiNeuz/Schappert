@@ -11,7 +11,8 @@ import {
   SelectValue,
 } from '../components/ui/select';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+// API URL - Nach Vercel Deployment hier die URL eintragen
+const API_URL = process.env.REACT_APP_API_URL || 'https://fahrdienst-schappert-api.vercel.app';
 
 const services = [
   { value: 'krankenfahrten', label: 'Krankenfahrten' },
