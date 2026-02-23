@@ -204,7 +204,7 @@ export const Datenschutz = () => {
 
           <section>
             <h2 className="text-xl font-bold text-[#1C1917] mb-4">
-              8. Kontaktaufnahme
+              9. Kontaktaufnahme
             </h2>
             <div className="text-[#57534E] leading-relaxed space-y-4">
               <p>
