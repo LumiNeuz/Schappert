@@ -97,7 +97,64 @@ export const Datenschutz = () => {
 
           <section>
             <h2 className="text-xl font-bold text-[#1C1917] mb-4">
-              5. Welche Rechte haben Sie bezüglich Ihrer Daten?
+              5. Cookies und Google Analytics
+            </h2>
+            <div className="text-[#57534E] leading-relaxed space-y-4">
+              <h3 className="text-lg font-semibold text-[#1C1917]">Cookies</h3>
+              <p>
+                Unsere Website verwendet Cookies. Das sind kleine Textdateien, die auf Ihrem 
+                Endgerät gespeichert werden. Einige Cookies sind technisch notwendig für den 
+                Betrieb der Website, andere helfen uns, die Website zu verbessern.
+              </p>
+              <p>
+                Beim ersten Besuch unserer Website werden Sie gefragt, welche Cookies Sie 
+                akzeptieren möchten. Sie können Ihre Einwilligung jederzeit widerrufen, 
+                indem Sie die Cookies in Ihrem Browser löschen.
+              </p>
+              
+              <h3 className="text-lg font-semibold text-[#1C1917] mt-6">Google Analytics</h3>
+              <p>
+                Diese Website nutzt Google Analytics, einen Webanalysedienst der Google Ireland 
+                Limited („Google"), Gordon House, Barrow Street, Dublin 4, Irland.
+              </p>
+              <p>
+                Google Analytics verwendet Cookies, die eine Analyse der Benutzung der Website 
+                durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre 
+                Benutzung dieser Website werden in der Regel an einen Server von Google in den 
+                USA übertragen und dort gespeichert.
+              </p>
+              <p>
+                Wir haben die IP-Anonymisierung aktiviert. Dadurch wird Ihre IP-Adresse von 
+                Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen 
+                Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum vor der 
+                Übermittlung in die USA gekürzt.
+              </p>
+              <p>
+                <strong>Rechtsgrundlage:</strong> Die Nutzung von Google Analytics erfolgt auf 
+                Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Sie können Ihre 
+                Einwilligung jederzeit widerrufen.
+              </p>
+              <p>
+                <strong>Widerspruch:</strong> Sie können die Speicherung der Cookies durch eine 
+                entsprechende Einstellung Ihrer Browser-Software verhindern. Sie können darüber 
+                hinaus die Erfassung der durch das Cookie erzeugten Daten durch Google Analytics 
+                verhindern, indem Sie das Browser-Add-on zur Deaktivierung von Google Analytics 
+                herunterladen: {' '}
+                <a 
+                  href="https://tools.google.com/dlpage/gaoptout" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[#0F4C81] hover:underline"
+                >
+                  https://tools.google.com/dlpage/gaoptout
+                </a>
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-bold text-[#1C1917] mb-4">
+              6. Welche Rechte haben Sie bezüglich Ihrer Daten?
             </h2>
             <div className="text-[#57534E] leading-relaxed space-y-4">
               <p>
