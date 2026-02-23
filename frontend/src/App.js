@@ -6,12 +6,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
+import ContactForm from './components/ContactForm';
 import ReviewsSection from './components/ReviewsSection';
 import AboutSection from './components/AboutSection';
 import WhyUsSection from './components/WhyUsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import MobileStickyCTA from './components/MobileStickyCTA';
+import WhatsAppButton from './components/WhatsAppButton';
 
 // Pages
 import Impressum from './pages/Impressum';
