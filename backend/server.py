@@ -79,6 +79,61 @@ async def get_status_checks():
     
     return status_checks
 
+@api_router.post("/contact")
+async def send_contact_form(request: ContactFormRequest):
+    """Send contact form email via Resend"""
+    
+    # Create HTML email content
+    html_content = f"""
+    <html>
+    <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <h2 style="color: #0F4C81;">Neue Kontaktanfrage von der Website</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Name:</td>
+                <td style="padding: 10px; border-bottom: 1px solid #eee;">{request.name}</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Telefon:</td>
+                <td style="padding: 10px; border-bottom: 1px solid #eee;">{request.phone}</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">E-Mail:</td>
+                <td style="padding: 10px; border-bottom: 1px solid #eee;">{request.email}</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Gewünschte Leistung:</td>
+                <td style="padding: 10px; border-bottom: 1px solid #eee;">{request.service}</td>
+            </tr>
+            {f'<tr><td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Nachricht:</td><td style="padding: 10px; border-bottom: 1px solid #eee;">{request.message}</td></tr>' if request.message else ''}
+        </table>
+        <p style="margin-top: 20px; color: #666; font-size: 12px;">
+            Diese Nachricht wurde über das Kontaktformular auf der Website gesendet.
+        </p>
+    </body>
+    </html>
+    """
+    
+    params = {
+        "from": "Kontaktformular <onboarding@resend.dev>",
+        "to": [CONTACT_EMAIL],
+        "subject": f"Neue Anfrage: {request.service} - {request.name}",
+        "html": html_content,
+        "reply_to": request.email
+    }
+    
+    try:
+        # Run sync SDK in thread to keep FastAPI non-blocking
+        email = await asyncio.to_thread(resend.Emails.send, params)
+        logger.info(f"Contact form email sent successfully to {CONTACT_EMAIL}")
+        return {
+            "status": "success",
+            "message": "Ihre Anfrage wurde erfolgreich gesendet. Wir melden uns schnellstmöglich bei Ihnen."
+        }
+    except Exception as e:
+        logger.error(f"Failed to send contact form email: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Fehler beim Senden der Nachricht: {str(e)}")
+
 # Include the router in the main app
 app.include_router(api_router)
 
