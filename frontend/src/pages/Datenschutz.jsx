@@ -191,7 +191,7 @@ export const Datenschutz = () => {
 
           <section>
             <h2 className="text-xl font-bold text-[#1C1917] mb-4">
-              7. SSL-Verschlüsselung
+              8. SSL-Verschlüsselung
             </h2>
             <p className="text-[#57534E] leading-relaxed">
               Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung 
