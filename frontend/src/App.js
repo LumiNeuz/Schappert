@@ -27,12 +27,14 @@ const HomePage = () => {
       <main>
         <HeroSection />
         <ServicesSection />
+        <ContactForm />
         <ReviewsSection />
         <AboutSection />
         <WhyUsSection />
         <ContactSection />
       </main>
       <Footer />
+      <WhatsAppButton />
       <MobileStickyCTA />
     </>
   );
