@@ -34,9 +34,9 @@ export const Impressum = () => {
               Angaben gemäß § 5 TMG
             </h2>
             <div className="text-[#57534E] space-y-2">
-              <p><strong>Manuel Schappert</strong></p>
-              <p>Personenbeförderung</p>
-              <p>Untergasse 49</p>
+              <p><strong>Mietwagen Manuel Schappert</strong></p>
+              <p>Personenbeförderung / Krankenfahrten</p>
+              <p>Lindenallee 41a</p>
               <p>55590 Meisenheim</p>
             </div>
           </section>
@@ -47,7 +47,17 @@ export const Impressum = () => {
             </h2>
             <div className="text-[#57534E] space-y-2">
               <p>Telefon: <a href="tel:067532610" className="text-[#0F4C81] hover:underline">06753 2610</a></p>
-              <p>E-Mail: <a href="mailto:schappertmanu@web.de" className="text-[#0F4C81] hover:underline">schappertmanu@web.de</a></p>
+              <p>E-Mail: <a href="mailto:info@ms-fahrdienst.com" className="text-[#0F4C81] hover:underline">info@ms-fahrdienst.com</a></p>
+            </div>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-[#1C1917] mb-4">
+              Umsatzsteuer-ID
+            </h2>
+            <div className="text-[#57534E] space-y-2">
+              <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:</p>
+              <p><strong>DE361987278</strong></p>
             </div>
           </section>
 
