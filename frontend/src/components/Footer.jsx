@@ -35,9 +35,9 @@ export const Footer = () => {
                 <Phone className="w-4 h-4" />
                 06753 2610
               </a>
-              <a href="mailto:schappertmanu@web.de" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:info@ms-fahrdienst.com" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
                 <Mail className="w-4 h-4" />
-                schappertmanu@web.de
+                info@ms-fahrdienst.com
               </a>
             </div>
           </div>

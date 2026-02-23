@@ -46,7 +46,7 @@ export const ContactSection = () => {
 
               {/* Email */}
               <a 
-                href="mailto:schappertmanu@web.de" 
+                href="mailto:info@ms-fahrdienst.com" 
                 data-testid="contact-email-link"
                 className="block bg-white/10 hover:bg-white/20 rounded-xl p-6 transition-all"
               >
@@ -56,7 +56,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-blue-200 mb-1">E-Mail</p>
-                    <p className="text-lg font-semibold text-white break-all">schappertmanu@web.de</p>
+                    <p className="text-lg font-semibold text-white break-all">info@ms-fahrdienst.com</p>
                   </div>
                 </div>
               </a>
