@@ -113,20 +113,21 @@ export const Footer = () => {
             © {currentYear} Manuel Schappert Personenbeförderung. Alle Rechte vorbehalten.
           </p>
           <div className="flex gap-6">
-            <Link 
-              to="/impressum" 
-              data-testid="footer-impressum-link"
-              className="hover:text-white transition-colors"
-            >
-              Impressum
-            </Link>
-            <Link 
-              to="/datenschutz" 
-              data-testid="footer-datenschutz-link"
-              className="hover:text-white transition-colors"
-            >
-              Datenschutz
-            </Link>
+            <a
+  href="/impressum/"
+  data-testid="footer-impressum-link"
+  className="hover:text-white transition-colors"
+>
+  Impressum
+</a>
+
+<a
+  href="/datenschutz/"
+  data-testid="footer-datenschutz-link"
+  className="hover:text-white transition-colors"
+>
+  Datenschutz
+</a>
           </div>
         </div>
       </div>
